@@ -25,24 +25,7 @@ La struttura dei dati che vengono memorizzati durante la richiesta HTTP è la se
 
 #### Albero del repository
 
-├── db.sqlite3
-├── manage.py
-├── test.sh
-├── sites
-│     ├── admin.py
-│     ├── api
-│   	  ├── responses.py
-│   	  ├── serializers.py
-│   	  ├── urls.py
-│   	  └── views.py
-
-│     ├── migrations
-│     ├── models.py
-└── webserver
-│     ├── settings.py
-│     ├── urls.py
-├── README.md
-
+![Schermata del 2023-11-13 20-23-15](https://github.com/jouleffect/Website-Availability/assets/53179989/3836f657-f2a1-49e8-864e-90ada4b7c6cd)
 
 
 Nella cartella **api** sono presenti i seguenti files: 
@@ -58,7 +41,7 @@ Per effettuare delle interrogazioni alle API ci sono 3 modalità:
 
 L'index si trova all'URL http://127.0.0.1:8000/api/sites/, dove è presente tutto lo storico delle richieste.
 
-![](/home/joule/Immagini/Schermate/Schermata del 2023-11-12 21-38-55.png)
+![Schermata del 2023-11-12 21-38-55](https://github.com/jouleffect/Website-Availability/assets/53179989/2667b8e3-a8ea-47e0-bc7e-1b75c09ed7e5)
 
 Le regole per le altre richieste sono le seguenti:
 
@@ -66,13 +49,13 @@ Per ispezionare una URL, senza il parametro dell'espressione regolare:
 
 http://127.0.0.1:8000/api/sites/u=<url>/
 
-![](/home/joule/Immagini/Schermate/Schermata del 2023-11-12 21-40-58.png)
+![Schermata del 2023-11-12 21-40-58](https://github.com/jouleffect/Website-Availability/assets/53179989/c0657c2b-6e2b-4cb9-9c8e-4c381fa6b7cf)
 
 Per ispezionare una URL, con il parametro dell'espressione regolare:
 
 http://127.0.0.1:8000/api/sites/u=<url>/r=<regex>
 
-![](/home/joule/Immagini/Schermate/Schermata del 2023-11-13 19-12-35.png)
+![Schermata del 2023-11-13 19-12-35](https://github.com/jouleffect/Website-Availability/assets/53179989/1fdde6d4-d930-47cb-a71d-bf5f24b0ab5a)
 
 ##### test.sh
 
