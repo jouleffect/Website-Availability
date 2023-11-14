@@ -47,13 +47,13 @@ Le regole per le altre richieste sono le seguenti:
 
 Per ispezionare una URL, senza il parametro dell'espressione regolare: 
 
-http://127.0.0.1:8000/api/sites/u=<url>/
+http://127.0.0.1:8000/api/sites/u=[URL]/
 
 ![Schermata del 2023-11-12 21-40-58](https://github.com/jouleffect/Website-Availability/assets/53179989/c0657c2b-6e2b-4cb9-9c8e-4c381fa6b7cf)
 
 Per ispezionare una URL, con il parametro dell'espressione regolare:
 
-http://127.0.0.1:8000/api/sites/u=<url>/r=<regex>
+http://127.0.0.1:8000/api/sites/u=[url]/r=[regex]
 
 ![Schermata del 2023-11-13 19-12-35](https://github.com/jouleffect/Website-Availability/assets/53179989/1fdde6d4-d930-47cb-a71d-bf5f24b0ab5a)
 
